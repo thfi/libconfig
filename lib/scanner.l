@@ -112,7 +112,7 @@ hex               0[Xx][0-9A-Fa-f]+
 hex64             0[Xx][0-9A-Fa-f]+L(L)?
 hexchar           \\[Xx][0-9A-Fa-f]{2}
 float             ([-+]?([0-9]*)?\.[0-9]*([eE][-+]?[0-9]+)?)|([-+]?([0-9]+)(\.[0-9]*)?[eE][-+]?[0-9]+)
-comment           (#|\/\/).*$
+comment           (#|%|\/\/).*$
 include_file_open ^[ \t]*@include[ \t]+\"
 include_dir_open  ^[ \t]*@include_dir[ \t]+\"
 
